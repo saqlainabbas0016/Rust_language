@@ -33,4 +33,8 @@ fn main() {
     println!("{:?}",tup);
     panic!("{}",tup.0);
 
+    // array
+    let arr = [1,2,3,4,5];
+    println!("{:?}",arr);
+
 }
