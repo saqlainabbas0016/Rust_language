@@ -2,7 +2,7 @@ fn main() {
     println!("Loops ");
 
     first_loop() ;
-
+ secod_loop() ;
 }
 
 //types of loops 
@@ -25,3 +25,22 @@ fn first_loop() {
 }
 
 }
+    
+// while loop 
+
+
+fn secod_loop(){
+    
+    let a = [ 10,20,30,40,50,60];
+    
+    let mut index = 0;
+    
+    while index < 7 {
+
+        println!("the value is {}", a[index]) ;
+
+        index += 1 ;
+    }
+
+}
+
