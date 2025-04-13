@@ -17,5 +17,5 @@ fn second() {
     let z = &mut x; // mutable reference
 
     *z += 1; // dereference z to change the value of x
-    println!("x: {}", x);
+    println!("z: {}", z);
 }
