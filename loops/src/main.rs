@@ -47,5 +47,7 @@ fn secod_loop(){
 // for loop 
 
 fn third_loop (){
+
+    
     
 }
